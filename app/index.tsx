@@ -20,6 +20,8 @@ export default function Index() {
     setItems(jsonData.data);
   }
 
+  console.log(items)
+
   return (
     <ScrollView
       contentContainerStyle={{
